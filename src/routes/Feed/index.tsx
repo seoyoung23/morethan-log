@@ -42,8 +42,7 @@ const Feed: React.FC<Props> = () => {
           <Footer />
         </div>
       </div>
-      <div
-        className="rt"
+      <div className="rt"
         css={{
           height: `calc(100vh - ${HEADER_HEIGHT}px)`,
         }}
